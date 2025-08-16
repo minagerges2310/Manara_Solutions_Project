@@ -1,0 +1,51 @@
+/* This line imports the 'Roboto' font from Google Fonts for a modern look. */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+    border-top: 5px solid #007bff;
+}
+
+h1 {
+    color: #1a2c5a;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.instance-info {
+    background-color: #e9ecef;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.instance-id {
+    font-weight: 700;
+    color: #d9534f;
+    font-family: monospace;
+    margin-top: 5px;
+    font-size: 1.3rem;
+}

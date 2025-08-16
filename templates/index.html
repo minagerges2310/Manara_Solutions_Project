@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Scalable Web App</title>
+    <!-- This line links the HTML file to the external CSS stylesheet for styling. -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main class="card">
+        <h1>Web Application is Running!</h1>
+        <p class="subtitle">This page is served by a scalable, load-balanced EC2 architecture.</p>
+        <div class="instance-info">
+            <p>Served by Instance ID:</p>
+            <!-- This line is a placeholder that Flask will replace with the actual instance ID. -->
+            <p class="instance-id">{{ instance_id }}</p>
+        </div>
+    </main>
+</body>
+</html>
