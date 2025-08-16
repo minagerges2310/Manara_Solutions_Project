@@ -12,7 +12,7 @@ This diagram shows the flow of user traffic through the Application Load Balance
 
 ## Live Website
 The application can be accessed via the Application Load Balancer's public DNS:
-[Here](my-app-alb-297956185.us-east-1.elb.amazonaws.com)
+[Here](http://my-app-alb-297956185.us-east-1.elb.amazonaws.com)
 
 Note: As this is a live demo, the instances may be scaled down or offline.
 
