@@ -42,6 +42,8 @@ The core of this project is an Auto Scaling Group of EC2 instances running a sim
 - Amazon SNS (Simple Notification Service): Sends notifications based on CloudWatch alarms.
 
 - Amazon VPC (Virtual Private Cloud): Provides a logically isolated section of the AWS Cloud to launch resources.
+ 
+- IAM (Identity and Access Management): An IAM Role was attached to the EC2 instances to provide secure, role-based access to other AWS services without needing to store credentials on the instance.
 
 ## Deployment Steps
 The project was deployed using the AWS Management Console by following steps:
