@@ -6,7 +6,7 @@ This project demonstrates the deployment of a scalable and highly available web 
 ## Architecture Diagram
 The following diagram illustrates the cloud architecture for this project.
 
-<img width="4988" height="1731" alt="Blank diagram - Page 1 (2)" src="https://github.com/user-attachments/assets/b8653ea6-80ad-4676-88bc-eb8fced2b2b7" />
+<img width="4988" height="1731" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/cbc0f071-d5ca-4fa1-9a1b-ff3e2a34462b" />
 
 This diagram shows the flow of user traffic through the Application Load Balancer to EC2 instances managed by an Auto Scaling Group, with monitoring provided by CloudWatch and SNS.
 
@@ -43,6 +43,8 @@ The core of this project is an Auto Scaling Group of EC2 instances running a sim
 
 - Amazon VPC (Virtual Private Cloud): Provides a logically isolated section of the AWS Cloud to launch resources.
  
+- IAM (Identity and Access Management): An IAM Role was attached to the EC2 instances to provide secure, role-based access to other AWS services without needing to store credentials on the instance.
+
 - IAM (Identity and Access Management): An IAM Role was attached to the EC2 instances to provide secure, role-based access to other AWS services without needing to store credentials on the instance.
 
 ## Deployment Steps
