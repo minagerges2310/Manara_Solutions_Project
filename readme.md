@@ -6,7 +6,7 @@ This project demonstrates the deployment of a scalable and highly available web 
 ## Architecture Diagram
 The following diagram illustrates the cloud architecture for this project.
 
-<img width="4988" height="1731" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/cbc0f071-d5ca-4fa1-9a1b-ff3e2a34462b" />
+<img width="4988" height="1731" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/d9d3de6a-6b19-43d9-a57b-8c54af0d7823" />
 
 This diagram shows the flow of user traffic through the Application Load Balancer to EC2 instances managed by an Auto Scaling Group, with monitoring provided by CloudWatch and SNS.
 
